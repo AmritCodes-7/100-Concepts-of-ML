@@ -1,0 +1,35 @@
+Unsupervised learning is a type of machine learning where the algorithm learns patterns and structures from unlabeled data. 
+Unlike supervised learning, there are no predefined output labels. 
+Instead, the algorithm identifies hidden patterns, relationships, or groupings in the data based solely on the input features.
+
+# Key Features of Unsupervised Learning:
+    No Labeled Data: The data used for training has no associated outputs or labels.
+    Goal: Discover the underlying structure of the data, such as clusters or associations, without prior knowledge.
+
+# Types of Tasks:
+    ## Clustering: Grouping similar data points into clusters.
+
+    ## Dimensionality Reduction: Reducing the number of features while preserving important information.
+
+    ## Anomaly Detection: Identifying data points that deviate from the norm.
+
+# How It Works:
+    The algorithm processes the input data without supervision.
+    It finds patterns, structures, or relationships based on the inherent properties of the data.
+    The output depends on the type of task (e.g., clusters, reduced dimensions).
+
+# Common Algorithms in Unsupervised Learning:
+    ## Clustering:
+        ### K-Means Clustering: Groups data points into k clusters based on their similarity.
+        ### Hierarchical Clustering: Creates a hierarchy of clusters, which can be visualized as a dendrogram.
+        ### DBSCAN (Density-Based Spatial Clustering of Applications with Noise): Groups data points based on density, identifying outliers as noise.
+
+    ## Dimensionality Reduction:
+        ### Principal Component Analysis (PCA): Reduces the number of features by projecting data onto a lower-dimensional space while preserving variance.
+        ### t-SNE (t-Distributed Stochastic Neighbor Embedding): Visualizes high-dimensional data in 2D or 3D while maintaining local relationships.
+        ### Autoencoders: Neural networks used to encode data into a smaller representation.
+
+    ## Anomaly Detection:
+        ### Isolation Forests
+        ### One-Class SVM
+        ### Gaussian Mixture Models (GMM)

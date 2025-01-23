@@ -1,0 +1,38 @@
+Supervised learning is a type of machine learning where the algorithm learns from labeled data. 
+In this approach, the model is trained using input-output pairs, where the input data (features) is associated with the correct output (labels). 
+The goal is for the model to learn the relationship between the inputs and outputs so it can predict the correct output for new, unseen data.
+
+# Key Features of Supervised Learning:
+    Labeled Data: The dataset contains both inputs (features) and corresponding outputs (labels).
+    Training and Testing: The model is trained on a portion of the data (training set) and evaluated on unseen data (testing set).
+    Objective: Minimize the error between the predicted outputs and the actual labels.
+
+# Two Main Types:
+    Classification: Predicts discrete labels (e.g., spam or not spam, cat or dog).
+    Regression: Predicts continuous values (e.g., house prices, stock prices).
+
+# How It Works:
+    ## Training Phase:
+        Provide the algorithm with labeled data (input-output pairs).   
+        The algorithm learns the mapping between inputs and outputs by finding patterns in the data.
+
+    ## Testing/Prediction Phase:
+        The trained model is applied to new, unseen data to predict outputs.
+
+# Common Algorithms in Supervised Learning:
+    ## Classification Algorithms:
+        Logistic Regression
+        Decision Trees
+        Random Forests
+        Support Vector Machines (SVM)
+        k-Nearest Neighbors (k-NN)
+        Naïve Bayes
+        Neural Networks (for complex problems)
+
+    ## Regression Algorithms:
+        Linear Regression
+        Polynomial Regression
+        Support Vector Regression (SVR)
+        Decision Trees
+        Random Forest Regression
+        Neural Networks
