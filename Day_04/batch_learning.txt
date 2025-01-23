@@ -1,0 +1,24 @@
+Batch Learning (also known as offline learning) is a training approach in machine learning where the model is trained using the entire dataset at once. 
+The training process happens in discrete stages rather than incrementally over time, and the model does not continuously learn from new data after deployment unless retrained.
+
+# Key Features of Batch Learning:
+    ## Entire Dataset at Once: The model is trained on the complete dataset in one go.
+    ## Offline Training: Training is done offline, typically on powerful hardware, as it requires the full dataset and computational resources.
+    ## Fixed Model Post-Training: After training, the model is deployed and remains static unless it is retrained with new data.
+    ## Resource-Intensive: Batch learning often requires significant memory and computational power, especially with large datasets.
+
+# How It Works:
+    ## Collect Dataset: Gather the entire dataset before starting the training process.
+    ## Train the Model: Feed the entire dataset into the learning algorithm to train the model.
+    ## Deploy the Model: Once trained, the model is deployed for use in real-world applications.
+    ## Update/Re-train: If new data becomes available, the model is retrained from scratch using the combined old and new data.
+
+# Advantages of Batch Learning:
+    ## Optimal Use of Data: The model can learn from the complete dataset at once, often leading to better performance.
+    ## Efficient Prediction: Once trained, predictions are typically fast as the model does not need to update itself in real time.
+    ## Stability: Batch learning models are stable since they do not dynamically change after deployment.
+
+#Disadvantages of Batch Learning:
+    ## Resource-Intensive: Requires significant computational power and memory, especially with large datasets.
+    ## Inflexible to New Data: New data cannot be used to update the model without retraining it entirely.
+    ## Time-Consuming: Retraining from scratch can be slow, particularly with very large datasets.
