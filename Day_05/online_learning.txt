@@ -1,0 +1,45 @@
+Online Learning is a type of machine learning where the model is trained incrementally as new data becomes available. 
+Instead of training on the entire dataset at once (as in batch learning), online learning updates the model continuously with each new data point or small batch of data.
+
+# Key Features of Online Learning:
+    ## Incremental Training: The model updates itself with each new sample or batch of data without retraining from scratch.
+    ## Adaptability: The model dynamically adjusts to changes in the data over time (e.g., real-time updates).
+    ## Resource-Efficient: Requires less memory and computational power since it processes data incrementally.
+    ## Streaming Data: Ideal for scenarios where data is generated continuously, such as in real-time systems.
+
+# How Online Learning Works:
+    ## Initialization: Start with an initial model (often trained on a small initial dataset).
+    ## Receive New Data: When a new data point or batch arrives:
+    ## Update the model parameters using the new data.
+    ## Repeat: Continue this process for every new data point or batch.
+
+# Key Algorithms for Online Learning:
+    Online learning algorithms are designed to handle incremental updates efficiently. 
+    Some popular algorithms include:
+
+    ## Stochastic Gradient Descent (SGD):
+        Updates model parameters with each data point or mini-batch, rather than the full dataset.
+
+    ## Perceptron Algorithm:
+        A classic online learning algorithm for binary classification.
+
+    ## Online Variants of Algorithms:
+        Algorithms like Online SVM, Online k-Means, or Online Logistic Regression are designed to work with streaming data.
+
+    ## Reinforcement Learning:
+        Can be considered a form of online learning, where the agent learns incrementally by interacting with the environment.
+
+# Advantages of Online Learning:
+    ## Efficient Resource Usage: Requires less memory and computation since it processes data incrementally.
+    ## Real-Time Adaptation: Can adapt to changes in the data distribution (concept drift).
+    ## Handles Streaming Data: Ideal for environments where data arrives in real-time (e.g., IoT sensors, financial transactions).
+    ## No Need for Full Dataset: Training does not require storing the entire dataset in memory.
+
+# Disadvantages of Online Learning:
+    ## Risk of Forgetting: Older patterns in the data may be forgotten if not handled properly (catastrophic forgetting).
+    ## Sensitive to Noisy Data: Poorly designed updates can lead to instability or poor performance.
+    ## Tuning Challenges: Requires careful parameter tuning (e.g., learning rate) for optimal performance.
+
+# Learning rate
+    The learning rate in online learning is a hyperparameter that determines the size of the updates to the model's parameters during training. 
+    It controls how quickly or slowly the model adapts to new data points.
