@@ -1,0 +1,24 @@
+# Regression
+    Definition: Regression is a type of supervised learning task where the goal is to predict a continuous numerical value based on input data.
+    Output: A real number (e.g., temperature, price, or height).
+    
+Examples:
+    Predicting house prices based on features like location and size.
+    Forecasting stock prices.
+    Estimating customer lifetime value.
+
+Algorithms:
+    Linear Regression
+    Polynomial Regression
+    Support Vector Regression (SVR)
+    Random Forest Regression
+    Neural Networks (for complex tasks)
+
+Metrics to Evaluate:
+    Mean Absolute Error (MAE)
+    Mean Squared Error (MSE)
+    R² Score (Coefficient of Determination)
+
+Example:
+    If you're predicting the price of a house based on features like size and location, this is a regression problem.
+

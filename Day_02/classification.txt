@@ -1,0 +1,25 @@
+# Classification:
+    Definition: Classification is a type of supervised learning task where the goal is to predict discrete labels or categories for given input data.
+    Output: A class label (e.g., "cat" or "dog," 0 or 1).
+
+Examples:
+    Email classification: Spam or not spam.
+    Sentiment analysis: Positive, neutral, or negative.
+    Image recognition: Identify whether an image is a car, bike, or truck.
+
+Algorithms:
+    Logistic Regression
+    Decision Trees
+    Random Forests
+    Support Vector Machines (SVM)
+    Neural Networks (for complex tasks)
+
+Metrics to Evaluate:
+    Accuracy
+    Precision, Recall, F1-Score
+    Confusion Matrix
+    ROC-AUC score
+
+Example:
+    If you're predicting whether a patient has a disease (Yes/No), this is a classification problem.
+
