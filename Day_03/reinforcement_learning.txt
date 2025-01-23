@@ -1,0 +1,5 @@
+Reinforcement Learning (RL) is a type of machine learning where an agent learns how to make decisions by interacting with an environment to maximize cumulative rewards. 
+It is inspired by behavioral psychology and involves trial-and-error learning.
+
+Unlike supervised learning, RL does not rely on labeled input-output pairs. 
+Instead, it uses feedback (rewards or penalties) to guide the learning process.
