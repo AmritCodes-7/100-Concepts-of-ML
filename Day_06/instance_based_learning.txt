@@ -1,0 +1,8 @@
+An instance-based model is a type of machine learning approach that uses the training data directly to make predictions, rather than explicitly learning a model or deriving a set of parameters during training. 
+These models store the training data and use it to calculate predictions only when a new query is made.
+
+# How Instance-Based Models Work:
+    ## Training Phase: Simply store all the training instances in memory.
+    ## Prediction Phase: For a new input, compare it to all stored instances in the training set. Use the similarity or distance to determine the prediction (e.g., by selecting the closest instance(s)).
+
+Instance-based models are effective for problems where similarity measures can accurately capture patterns, but they may not scale well for very large datasets. 
