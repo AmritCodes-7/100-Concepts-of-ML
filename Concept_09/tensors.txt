@@ -1,0 +1,8 @@
+Tensors are fundamental data structures used in machine learning, particularly in frameworks like TensorFlow and PyTorch. 
+They generalize vectors and matrices to higher dimensions, allowing for flexible and efficient data manipulation in numerical computations.
+
+# Tensor is a generalization of: 
+    ## Scalars: 0-dimensional tensors (single numbers).
+    ## Vectors: 1-dimensional tensors (arrays of numbers).
+    ## Matrices: 2-dimensional tensors (tables of numbers).
+    ## Higher-dimensional arrays (3D, 4D, etc.).
